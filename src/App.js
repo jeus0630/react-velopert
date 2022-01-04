@@ -1,12 +1,11 @@
 import Title from "./components/Title";
 import './App.css';
 import Wrapper from "./components/Wrapper";
+import InputSample from "./components/InputSample";
 
 function App() {
   return (
-      <Wrapper>
-          <Title color="red"></Title>
-      </Wrapper>
+      <InputSample></InputSample>
   );
 }
 
